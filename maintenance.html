@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Les métiers de la maintenance après des études en Informatique</title>
+
+	<link rel="shortcut icon" href="assets/images/logo.jpg">
+
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href="css/icon.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="http://www.iut-lens.univ-artois.fr/"><img src="assets/images/logo.png" alt="Logo IUT Lens"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Catégories de métiers<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="basededonnées.html">Base de données</a></li>
+							<li class="active"><a href="maintenance.html">Maintenance</a></li>
+							<li><a href="programmation.html">Programmation</a></li>
+							<li><a href="réseaux.html">Réseaux</a></li>
+							<li><a href="sécurité.html">Sécurité</a></li>
+							<li><a href="webdesign.html">Webdesign</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="index.html">Accueil</a></li>
+			<li class="active">Maintenance</li>
+		</ol>
+
+	</div>	<!-- /container -->
+
+	<div class="container">
+
+			<div class="promos">
+	    <div class="promo" id="first">
+	      <div class="deal">
+	        <span>Assistant informatique</span>
+	        <span>Et internet à domicile</span>
+	      </div>
+	      <span class="price">Bac + 2</span>
+	      <ul class="features">
+	        <li>l'expert informatique</li>
+	        <li>est un</li>
+	        <li>"hacker éthique" ...</li>
+	      </ul>
+	        <button class="choix" id="webdesigner">Voir plus</button>
+	    </div>
+	    <div class="promo" id="second">
+	      <div class="deal">
+	        <span>Dépanneur informatique</span>
+	        <span>Dépanneur informatique à domicile</span>
+	      </div>
+	      <span class="price">Bac + 2</span>
+	      <ul class="features">
+	        <li>L'expert qui garantit</li>
+	        <li>la sécurité des biens</li>
+	        <li>et des personnes...</li>
+	      </ul>
+	      <button class="choix" id="frontend">Voir plus</button>
+	    </div>
+	    <div class="promo" id="third">
+	      <div class="deal">
+	        <span>Hot Liner</span>
+	        <span>Devenez Hot Liner !</span>
+	      </div>
+	      <span class="price">Bac + 2</span>
+	      <ul class="features">
+	        <li>Il résoud par téléphone</li>
+	        <li>les problèmes rencontrés</li>
+	        <li>par des clients...</li>
+	      </ul>
+	      <button class="choix" id="backend">Voir plus</button>
+	    </div>
+	    <div class="promo" id="fourth">
+	      <div class="deal">
+	        <span>Technicien maintenance</span>
+	        <span>Technicien de maintenance informatique !</span>
+	      </div>
+	      <span class="price">Bac + 2</span>
+	      <ul class="features">
+	        <li>Il assure l'entretien</li>
+	        <li>et la réparation</li>
+	        <li>des matériels informatiques...</li>
+	      </ul>
+	      <button class="choix" id="devweb">Voir plus</button>
+	    </div>
+	    </div>
+
+
+	                <div class="metier" id="metier1">
+	                    <button class="tablink" onclick="openPage('presentation1', this, '70px')" id="defaultOpen">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions1', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences1', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil1', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire1', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation1', this, '70px')">Formation</button>
+
+	                    <div id="presentation1" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>L’assistant informatique et internet à domicile dépanne un particulier (PC, Mac, imprimante, connexion, logiciels…). Il peut aussi l'initier aux fonctions de base. Ses interventions, strictement réglementées, entrent dans le cadre des services à la personne.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Livraison à domicile du matériel informatique (ordinateur, accessoires et périphériques) ;</li>
+															<li>•	Installation (branchements, programmations et logiciels) ;</li>
+															<li>•	Mise en service et les essais expérimentaux du matériel ;</li>
+															<li>•	Dépannage hardware ou software.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences1" class="tabcontent">
+	                        <div class="cadre">
+														<p>Ses tâches sont précisément circonscrites au matériel informatique : par exemple, si l’initiation peut concerner l’importation dans l’ordinateur d’images en provenance d’un appareil photo numérique, l’apprentissage du maniement de l’appareil, lui, n’entre pas dans les attributions de l’assistant.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil1" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Autonome et rigoureux, l'assistant informatique est une personne de confiance capable de mener à bien les missions qui lui sont confiées. Un assistant informatique est patient et possède le sens de l'observation.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Débutant : SMIC ;</li>
+															<li>• Expérimenté : Environ 24 000 €.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															 <li>BT​​​​​S SN - systèmes numériques,</li>
+															 <li>BTS SIO -services informatiques aux organisations,</li>
+														 	 <li>DUT informatique,</li>
+															 <li>DUT réseaux et télécommunications.</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier2">
+	                    <button class="tablink" onclick="openPage('presentation2', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions2', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences2', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil2', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire2', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation2', this, '70px')">Formation</button>
+
+	                    <div id="presentation2" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le dépanneur informatique règle les problèmes quotidiens pour l'utilisation des ordianteurs. Il doit faire face à des bugs, des virus, des problèmes de connexion ou d'installation.
+														Il peut travailler dans son atelier, au sein de grandes surfaces ou à son compte en dépannant à domicile.
+														Il doit posséder une bonne culture informatique et détecter rapidement les pannes. C'est un métier qui demande aussi de la patience et de la pédagogie, on reste au contact du client.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Diagnostiquer à distance un dysfonctionnement informatique matériel ou logiciel</li>
+															<li>• Identifier des ressources nécessaires à la résolution d'un dysfonctionnement</li>
+															<li>• Guider l'utilisateur pour résoudre le dysfonctionnement ou prendre le contrôle du système à distance</li>
+															<li>• Identifier les phases d'intervention à partir des informations du diagnostic help desk, de la hot line, des dossiers constructeur</li>
+															<li>• Changer ou réparer un élément ou un ensemble défectueux</li>
+															<li>• Configurer le poste de travail aux besoins de l'utilisateur et effectuer les tests de fonctionnement</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Micro Informatique</li>
+															<li>• Electronique</li>
+															<li>• Procédure de déploiement d'installation</li>
+															<li>• Réaliser les opérations de nettoyage et de réglage sur les matériels et équipements</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil2" class="tabcontent">
+	                        <div class="cadre">
+	                        <p> Le dépanneur se doit d'être rigoureux et débrouillard à la fois. Il se veux curieux et à l'affut des nouvelles innovations technologiques. Il doit être patient et savoir cibler le problème.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Le salaire d'un dépanneur démarre au SMIC et n'évolue que très peu avec l'expèrience.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>•Cet emploi/métier est accessible avec un diplôme de niveau Bac (Bac Professionnel, Brevet professionnel, ...) à Bac+2 (BTS, DUT) en informatique, électronique, électrotechnique, ...
+																Il est également accessible avec un CAP/BEP en bureautique, reprographie,... ou avec une expérience professionnelle dans le secteur de l'informatique.
+																Un diplôme de niveau BAC+2 à BAC+4 peut être requis pour les superviseurs et pour les responsables de centres d'appels.</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier3">
+	                    <button class="tablink" onclick="openPage('presentation3', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions3', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences3', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil3', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire3', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation3', this, '70px')">Formation</button>
+
+	                    <div id="presentation3" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le hot liner travaille généralement dans le domaine informatique. Il peut être employé par une société éditrice de logiciels, un fabricant de matériel ou encore pour un fournisseur d'accès à Internet. Son rôle est de résoudre par téléphone les problèmes rencontrés par les clients de sa société..</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Apporter une assistance technique et des conseils à l’utilisateur d’une application ou d’un matériel informatique ;</li>
+															<li>•	S’occuper de l’installation et de la mise à jour des produits multimédia et logiciels ;</li>
+															<li>•	Diagnostiquer la panne et guider l’utilisateur pour la résoudre.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Maîtrise technique en informatique</li>
+															<li>• Maîtrise parfaite de son environnement (utilisateurs, clients, matériel, logiciels)</li>
+															<li>• Prise de recul, remise en question</li>
+															<li>• Maîtrise de l'anglais</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil3" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Logiquement, les filières en informatique, informatique de gestion, informatique et réseaux, service et réseaux de communication et toute autre filière en rapport avec le secteur multimédia ou l’informatique
+														sont les plus demandées par les recruteurs de techniciens hot liner.
+														Parfois, un bac professionnel est suffisant mais la plupart du temps il vous faudra un bac + 2.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Débutant : 20 000 € annuels brut</li>
+															<li>• Expérimenté : jusqu'a 30 000 € annuels brut</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Bac : bac pro en informatique ;</li>
+															<li>•	Bac + 2 : BTS Systèmes numériques, DUT Réseaux et télécommunication, DUT informatique, DEUST Technicien des systèmes d’information et de communication</li>
+															<li>•	Bac + 4/5 : diplôme d’Ecole d’Ingénieur, spécialisation informatique.</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier4">
+	                    <button class="tablink" onclick="openPage('presentation4', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions4', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences4', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil4', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire4', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation4', this, '70px')">Formation</button>
+
+	                    <div id="presentation4" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le technicien de maintenance informatique assure l’entretien et la réparation des matériels informatiques. Il peut réaliser également l’installation de nouveaux équipements ou assurer la formation des utilisateurs.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions4" class="tabcontent">
+	                        <div class="cadre">
+													<p>Son rôle : contrôler la sécurité des applications (mobiles, back end des sites web qui enregistrent des données confidentielles comme les numéros de cartes bancaires par exemple…)
+														et des réseaux informatiques (réseaux industriels : chaine de montage aéronautique…) en opérant des tests d’intrusion (attaques contrôlées). D'où son nom : pentester est la contraction de "penetration test".
+													</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences4" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>Maîtriser les langages informatiques</li>
+															<li>Connaître les produits et l'environnement d'exploitation</li>
+															<li>Maîtriser l'anglais technique</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil4" class="tabcontent">
+	                        <div class="cadre">
+													<ul>
+														<li>• Méthode</li>
+														<li>• Logique</li>
+														<li>• Rigueur</li>
+														<li>• Disponibilité</li>
+														<li>• Curiosité</li>
+													</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire4" class="tabcontent">
+	                        <div class="cadre">
+													<ul>
+														<li>• Débutant : 36 000 € annuels brut ;</li>
+														<li>• Intermédiaire : 45 000 € annuels brut ;</li>
+														<li>• Expérimenté : 75 000 € et plus annuels brut.</li>
+													</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation4" class="tabcontent">
+	                        <div class="cadre">
+													<p>• Cet emploi/métier est accessible avec un diplôme de niveau Bac (Bac Professionnel, Brevet professionnel, ...) à Bac+2 (BTS, DUT) en informatique, électronique, électrotechnique, ...
+														Il est également accessible avec un CAP/BEP en bureautique, reprographie,... ou avec une expérience professionnelle dans le secteur de l'informatique.</p>
+	                        </div>
+	                    </div>
+	                </div>
+								</div>
+
+	            <script>
+	                function openPage(pageName,elmnt,height) {
+	                    var i, tabcontent, tablinks;
+	                    tabcontent = document.getElementsByClassName("tabcontent");
+	                    for (i = 0; i < tabcontent.length; i++) {
+	                        tabcontent[i].style.display = "none";
+	                    }
+	                    tablinks = document.getElementsByClassName("tablink");
+	                    for (i = 0; i < tablinks.length; i++) {
+	                        tablinks[i].style.height = "50px";
+	                    }
+	                    document.getElementById(pageName).style.display = "block";
+	                    elmnt.style.height = height;
+	                }
+
+	                document.getElementById("defaultOpen").click();
+	            </script>
+
+	<script>
+	document.querySelector("#webdesigner").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier1')).display=='none'){
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier1").style.display="block";
+	    document.querySelector("#presentation1").style.display="block";
+			document.getElementsByClassName("top-space").style.marginTop="60px"
+	    }
+	  else {
+	    document.querySelector("#metier1").style.display="none";
+	    }
+	}
+
+	document.querySelector("#frontend").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier2')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier2").style.display="block";
+	    document.querySelector("#presentation2").style.display="block";
+	    document.querySelector("ninja").style.backgroundColor="red";
+	    }
+	  else {
+	    document.querySelector("#metier2").style.display="none";
+	    }
+	}
+
+	document.querySelector("#backend").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier3')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier3").style.display="block";
+	    document.querySelector("#presentation3").style.display="block";
+	    }
+	  else {
+	    document.querySelector("#metier3").style.display="none";
+	    }
+	}
+
+	document.querySelector("#devweb").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier4')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="block";
+	    document.querySelector("#presentation4").style.display="block";
+	    }
+	  else {
+	    document.querySelector("#metier4").style.display="none";
+	    }
+	}
+	</script>
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Informations complémentaires</h3>
+						<div class="widget-body">
+							<p>Vous pouvez également trouver des informations complémentaires sur le site de <a href="http://www.onisep.fr/Decouvrir-les-metiers/Des-metiers-par-secteur/Informatique-et-reseaux">l'Onisep</a> pour d'avantages de perspectives d'avenir et d'explications sur une grande variété de métiers.</p>
+							<p>Nous ne présentons ici qu'une petite partie de ce qu'il est possible de faire après un DUT Informatique, ce secteur est en plein essor, des métiers se créent de plus en plus.</p>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Catégories de métiers</h3>
+						<div class="widget-body">
+							<p>‣ <a href="basededonnées.html">Base de données</a></p>
+							<p>‣ <a href="maintenance.html">Maintenance</a></p>
+							<p>‣ <a href="programmation.html">Programmation</a></p>
+							<p>‣ <a href="réseaux.html">Réseaux</a></p>
+							<p>‣ <a href="sécurité.html">Sécurité</a></p>
+							<p>‣ <a href="webdesign.html">Webdesign</a></p>
+						</div>
+					</div>
+
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contacts</h3>
+						<div class="widget-body">
+							<p><i class="fas fa-home mr-3"></i> Rue de l’université - 62307 LENS Cedex</p>
+							<p><i class="fas fa-phone mr-3"></i> +33 (0)3 21 79 32 32</p>
+							<p><i class="fas fa-envelope mr-3"></i><a href="mailto:#"> info-iutlens@univ-artois.fr</a></p><br>
+						</div>
+						<img class="artois" src="assets/images/univartois.png" alt="univartois">
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-left vaenba">
+								Copyright <a href="http://www.iut-lens.univ-artois.fr/">IUT de Lens</a> &copy; 2020
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href="https://www.youtube.com/channel/UCND_qTgiKH9g6XeK_r2iNzw" target="blank" style="color: #C4302B;"><i class="fab fa-youtube fa-2"></i></a>
+								<a href="https://fr.linkedin.com/school/iut-de-lens/" target="blank" style="color: #0E76A8;"><i class="fab fa-linkedin fa-2"></i></a>
+								<a href="https://twitter.com/iutdelens?lang=fr" target="blank" style="color: #00ACEE;"><i class="fab fa-twitter fa-2"></i></a>
+								<a href="https://www.instagram.com/iutdelens/" target="blank" style="color: #DD2A7B;"><i class="fab fa-instagram fa-2"></i></a>
+								<a href="https://fr-fr.facebook.com/IUT.DE.LENS/" target="blank" style="color: #3B5998;"><i class="fab fa-facebook fa-2"></i></a>
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Les métiers de la programmation après des études en Informatique</title>
+
+	<link rel="shortcut icon" href="assets/images/logo.jpg">
+
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href="css/icon.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="http://www.iut-lens.univ-artois.fr/"><img src="assets/images/logo.png" alt="Logo IUT Lens"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="active"><a href="index.html">Accueil</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Catégories de métiers<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="basededonnées.html">Base de données</a></li>
+							<li><a href="maintenance.html">Maintenance</a></li>
+							<li class="active"><a href="programmation.html">Programmation</a></li>
+							<li><a href="réseaux.html">Réseaux</a></li>
+							<li><a href="sécurité.html">Sécurité</a></li>
+							<li><a href="webdesign.html">Webdesign</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary"></header>
+
+	<!-- container -->
+	<div class="container">
+
+		<ol class="breadcrumb">
+			<li><a href="index.html">Accueil</a></li>
+			<li class="active">Programmation</li>
+		</ol>
+
+	</div>	<!-- /container -->
+
+	<div class="container">
+
+			<div class="promos">
+	    <div class="promo" id="first">
+	      <div class="deal">
+	        <span>Developpeur Java</span>
+	        <span>Devenez Developpeur Java !</span>
+	      </div>
+	      <span class="price">Bac + 5</span>
+	      <ul class="features">
+	        <li>C'est un informaticien</li>
+	        <li>capable de créer un programme</li>
+	        <li>en langage Java...</li>
+	      </ul>
+	        <button class="choix" id="webdesigner">Voir plus</button>
+	    </div>
+	    <div class="promo" id="second">
+	      <div class="deal">
+	        <span>Dev Application mobile</span>
+	        <span>Devenez dev application mobile !</span>
+	      </div>
+	      <span class="price">Bac + 5</span>
+	      <ul class="features">
+	        <li>Il effectue la réalisation technique</li>
+	        <li>et le développement informatique</li>
+	        <li>d'applications pour mobile...</li>
+	      </ul>
+	      <button class="choix" id="frontend">Voir plus</button>
+	    </div>
+	    <div class="promo" id="third">
+	      <div class="deal">
+	        <span>Dev Back-End</span>
+	        <span>Devenez dev Back-End !</span>
+	      </div>
+	      <span class="price">Bac + 3</span>
+	      <ul class="features">
+	        <li>Il participe à l'élaboration</li>
+	        <li>d'un site web et mobile.</li>
+	        <li>Il utilise des languages informatiques...</li>
+	      </ul>
+	      <button class="choix" id="backend">Voir plus</button>
+	    </div>
+	    <div class="promo" id="fourth">
+	      <div class="deal">
+	        <span>Dev informatique</span>
+	        <span>Devenez dev informatique !</span>
+	      </div>
+	      <span class="price">Bac + 2</span>
+	      <ul class="features">
+	        <li>Conçoit, développe</li>
+	        <li>et met au  point</li>
+	        <li>un projet d'application informatique...</li>
+	      </ul>
+	      <button class="choix" id="devweb">Voir plus</button>
+	    </div>
+	    </div>
+
+
+	                <div class="metier" id="metier1">
+	                    <button class="tablink" onclick="openPage('presentation1', this, '70px')" id="defaultOpen">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions1', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences1', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil1', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire1', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation1', this, '70px')">Formation</button>
+
+	                    <div id="presentation1" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le développeur Java est un informaticien capable de créer un programme informatique en langage java.
+														Technicien informatique, il est capable selon le cahier des charges fourni d'analyser très précisément les besoins de son client, de concevoir un logiciel d'application informatique
+														qui répond point par point aux exigences techniques et fonctionnelles du cahier des charges puis d'écrire en langage Java tout ou partie du programme informatique.
+														L'informatisation des moyens et des outils de travail des entreprises, des services publics et privés a conduit à l'accroissement du nombre de développeurs informatiques,
+														véritables experts professionnels des différents langages informatiques.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions1" class="tabcontent">
+	                        <div class="cadre">
+														<p>Le développeur Java est un concepteur sur mesure de programmes informatiques en langage Java ainsi que de leurs notices d'utilisation.
+															Son travail se déroule en 3 étapes: l'analyse du cahier des charges de son client au cours de laquelle il va dégager une bonne solution technique.
+															Ensuite, il passe à la programmation en langage Java d'une partie ou de la totalité du logiciel informatique en assemblant des programmes Java déjà tout faits avant de passer à la phase d'essais pour tester les applications.
+															Enfin, il rédige les notices techniques et les principaux guides d'utilisation pour les usagers.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Très grande maîtrise du langage Java</li>
+															<li>• Dimension de communication</li>
+															<li>• Rigueur et organisation</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil1" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Disponibilité, flexibilité et adaptabilité sont sûrement des qualités requises pour durer dans cette fonction. Enfin, il devra faire preuve de qualités rédactionnelles pour la rédaction claire des notices d'utilisation.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Débutant : environ 37 500 € annuels brut ;</li>
+															<li>• Expérimenté : environ 60 000 € annuels brut.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation1" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Bac + 5 : Un master informatique</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier2">
+	                    <button class="tablink" onclick="openPage('presentation2', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions2', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences2', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil2', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire2', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation2', this, '70px')">Formation</button>
+
+	                    <div id="presentation2" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le développeur d'applications mobiles effectue la réalisation technique et le développement informatique d'applications pour mobiles, smartphones et autres tablettes.
+														Il peut s'agir de la création d'une application de toutes pièces, de l'adaptation d'un site web à l'une de ces plates-formes, ou encore de l'optimisation d'une application déjà existante.
+													</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions2" class="tabcontent">
+	                        <div class="cadre">
+														<p>Le travail débute sur la base d’un cahier des charges présenté par un prestataire. Pour n’importe quels logiciels, la phase de préparation et de mise en place est la plus importante.
+															Tous les paramètres et les fonctionnalités qui doivent être opérationnels à l’intérieur du programme sont soigneusement pensés et calculés avant le codage.
+															Un document est créé appelé « document de conception ». Le projet est tout d’abord interprété et codé. Cela représente la phase de programmation et de codage. Le logiciel ainsi créé est testé.
+															Être développeur de logiciels signifie être capable de concevoir des applications aussi bien pour le web, les mobiles ou les tablettes.
+															Le programmeur doit maîtriser son travail pour qu’il soit exploitable sur différentes plateformes.
+															Un deuxième aspect du métier de développeur de logiciels est la maintenance.
+															Les logiciels et leurs mises en place sur le terrain chez les clients requièrent un suivi, des mises à jour, mais, également, une formation à l’utilisation du logiciel.
+															Le développeur doit faire face à des bugs et les résoudre. Dans certains cas, il doit ajouter des extensions.
+															La prise en considération du développement du logiciel pour s’adapter aux demandes particulières du client est fréquente. C’est le soutien technique, de contrôle et de maintenance.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences2" class="tabcontent">
+	                        <div class="cadre">
+														<p> Qu’il préfère développer des applications pour Android, IOS ou Windows, il reste essentiel pour ce professionnel de parfaitement connaître les enjeux du mobile.
+															Une parfaite maîtrise des normes (W3C, HTML5 ou encore CSS pour ne citer que les principales), mais aussi des interdits (javascript, Flash…) en mobile sont donc indispensables.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Bonne connaissance du Front-end : Html/Css Javascript/JQuery – Backbone / Bootstrap,</li>
+															<li>• Rigueur, curiosité, créativité,</li>
+															<li>• Bonne communication</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Le salaire du développeur mobile varie énormément en fonction de son expérience.
+																Par exemple, un débutant pourra espérer un salaire compris entre 35.000 et 38.000 € alors que les profils experts peuvent obtenir une rémunération allant de 52.000 à 60.000 €.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation2" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Les formations en informatique sont nombreuses, mais rares sont celles qui proposent un module dédié au mobile. Il ne faut pas oublier que le métier est jeune :
+																les bons profils étant rares, se former en autodidacte est une bonne solution pour compléter une formation initiale Bac+3 à Bac+5 obtenue à l’Université, en École d’informatique ou encore en École d’ingénieur.</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier3">
+	                    <button class="tablink" onclick="openPage('presentation3', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions3', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences3', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil3', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire3', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation3', this, '70px')">Formation</button>
+
+	                    <div id="presentation3" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le Développeur Back-End est en charge de l’ensemble des fonctionnalités d’un site web. A la différence du Développeur Front-End, le Développeur Back-End ne s’occupe pas de l’aspect ergonomique du site mais de l’aspect technique et fonctionnel. Il travaille dans l’ombre.
+														Il peut concevoir un site web et dans ce cas réaliser lui-même l’architecture technique du site ; ou bien rester sur la plateforme instaurée et adapter des solutions techniques sur celle-ci.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Analyse des besoins ;</li>
+															<li>• Préconisation des solutions techniques ;</li>
+															<li>• Developpement et évolution des fonctionnalités techniques du site web ;</li>
+															<li>• Evolution dans un contexte agile.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• PHP</li>
+															<li>• Ruby</li>
+															<li>• Node.js</li>
+															<li>• SQL</li>
+															<li>• Java</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil3" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le Développeur Back-End détient de fortes compétences techniques et sait gérer un budget ainsi que son temps de travail pour être dans les délais de réalisation.
+														Il possède une culture générale informatique, notamment en web et XML.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Débutant : 35 000 € annuels brut</li>
+															<li>• Expérimenté : jusqu'a 65 000 € annuels brut</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation3" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Ressortissant d’une école d’ingénieur, une école d’informatique, d’un BTS ou d’un DUT, il n’est pas attendu du Développeur Back-End qu’il détienne un bac+4 ou bac+5, même si cela reste une plus-value.
+																Ce qui est très important, et ce qui est attendu de lui, c’est son expérience et la complexité des tâches qu’il a résolu.</li>
+														</ul>
+	                        </div>
+	                    </div>
+	                </div>
+
+	                <div class="metier" id="metier4">
+	                    <button class="tablink" onclick="openPage('presentation4', this, '70px')">Présentation</button>
+	                    <button class="tablink" onclick="openPage('missions4', this, '70px')">Missions</button>
+	                    <button class="tablink" onclick="openPage('competences4', this, '70px')">Compétences</button>
+	                    <button class="tablink" onclick="openPage('profil4', this, '70px')">Profil</button>
+	                    <button class="tablink" onclick="openPage('salaire4', this, '70px')">Salaire moyen</button>
+	                    <button class="tablink" onclick="openPage('formation4', this, '70px')">Formation</button>
+
+	                    <div id="presentation4" class="tabcontent">
+	                        <div class="cadre">
+	                        <p>Le testeur en informatique est le spécialiste de la chasse aux bugs.
+														Il détecte les anomalies liées au fonctionnement technique d’une application informatique, d’un logiciel bureautique, d’un cédérom ou d’un site web, puis sollicite le développeur pour une mise à jour.
+														Un métier passion, à fort potentiel.</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="missions4" class="tabcontent">
+	                        <div class="cadre">
+													<p>Le développeur informatique / la développeuse informatique réalise un cahier des charges fixant les besoins des utilisateurs et décrivant les solutions techniques envisagées.
+														Pour écrire un programme, il utilise des logiciels prêts à l’emploi (progiciels) qu’il adapte aux besoins spécifiques du projet. Ces logiciels de travail lui permettent d’orienter son activité de plus en plus vers l’analyse.
+													</p>
+	                        </div>
+	                    </div>
+
+	                    <div id="competences4" class="tabcontent">
+	                        <div class="cadre">
+														<ul>
+															<li>• Comprendre des contraintes du projet (délais, budget, attentes).</li>
+															<li>• Solutionner les problèmes (origine, correctifs, mise en ligne des correctifs).</li>
+															<li>• Maîtriser les outils de CMS (Content Management System), Framework et outils d’édition de code : symfony, JQuery, Angular JS...</li>
+															<li>• Avoir une bonne culture générale informatique.</li>
+														</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="profil4" class="tabcontent">
+	                        <div class="cadre">
+													<p>Les qualités indispensables : rigueur, organisation et sens de la méthode, mais aussi aptitude au travail en équipe, rapidité d'exécution, facilité d'adaptation. Sans oublier l'anglais (au mininimum la compréhension écrite). </p>
+	                        </div>
+	                    </div>
+
+	                    <div id="salaire4" class="tabcontent">
+	                        <div class="cadre">
+													<ul>
+														<li>• Débutant : 36 000 € annuels brut ;</li>
+														<li>• Intermédiaire : 45 000 € annuels brut ;</li>
+														<li>• Expérimenté : 75 000 € et plus annuels brut.</li>
+													</ul>
+	                        </div>
+	                    </div>
+
+	                    <div id="formation4" class="tabcontent">
+	                        <div class="cadre">
+													<ul>
+														<li>• Diplômes d'ingénieurs  : INP-ENSIMAG, EPSI, EPITA, EISTI, ISEP, INSA, Supinfo, ESGI, ISEP, Epitech, Ingésup, 3iL, ENSATT...) ;</li>
+														<li>• Master pro Développement et applications sur plateformes mobiles/DAPM (Toulon) ;</li>
+														<li>• MS (mastère spécialisé)</li>
+													</ul>
+	                        </div>
+	                    </div>
+	                </div>
+								</div>
+
+	            <script>
+	                function openPage(pageName,elmnt,height) {
+	                    var i, tabcontent, tablinks;
+	                    tabcontent = document.getElementsByClassName("tabcontent");
+	                    for (i = 0; i < tabcontent.length; i++) {
+	                        tabcontent[i].style.display = "none";
+	                    }
+	                    tablinks = document.getElementsByClassName("tablink");
+	                    for (i = 0; i < tablinks.length; i++) {
+	                        tablinks[i].style.height = "50px";
+	                    }
+	                    document.getElementById(pageName).style.display = "block";
+	                    elmnt.style.height = height;
+	                }
+
+	                document.getElementById("defaultOpen").click();
+	            </script>
+
+	<script>
+	document.querySelector("#webdesigner").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier1')).display=='none'){
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier1").style.display="block";
+	    document.querySelector("#presentation1").style.display="block";
+			document.getElementsByClassName("top-space").style.marginTop="60px"
+	    }
+	  else {
+	    document.querySelector("#metier1").style.display="none";
+	    }
+	}
+
+	document.querySelector("#frontend").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier2')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier2").style.display="block";
+	    document.querySelector("#presentation2").style.display="block";
+	    document.querySelector("ninja").style.backgroundColor="red";
+	    }
+	  else {
+	    document.querySelector("#metier2").style.display="none";
+	    }
+	}
+
+	document.querySelector("#backend").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier3')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier4").style.display="none";
+	    document.querySelector("#metier3").style.display="block";
+	    document.querySelector("#presentation3").style.display="block";
+	    }
+	  else {
+	    document.querySelector("#metier3").style.display="none";
+	    }
+	}
+
+	document.querySelector("#devweb").onclick = function() {
+	  if (window.getComputedStyle(document.querySelector('#metier4')).display=='none'){
+	    document.querySelector("#metier1").style.display="none";
+	    document.querySelector("#metier2").style.display="none";
+	    document.querySelector("#metier3").style.display="none";
+	    document.querySelector("#metier4").style.display="block";
+	    document.querySelector("#presentation4").style.display="block";
+	    }
+	  else {
+	    document.querySelector("#metier4").style.display="none";
+	    }
+	}
+	</script>
+
+
+	<footer id="footer" class="top-space">
+
+		<div class="footer1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 widget">
+						<h3 class="widget-title">Informations complémentaires</h3>
+						<div class="widget-body">
+							<p>Vous pouvez également trouver des informations complémentaires sur le site de <a href="http://www.onisep.fr/Decouvrir-les-metiers/Des-metiers-par-secteur/Informatique-et-reseaux">l'Onisep</a> pour d'avantages de perspectives d'avenir et d'explications sur une grande variété de métiers.</p>
+							<p>Nous ne présentons ici qu'une petite partie de ce qu'il est possible de faire après un DUT Informatique, ce secteur est en plein essor, des métiers se créent de plus en plus.</p>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Catégories de métiers</h3>
+						<div class="widget-body">
+							<p>‣ <a href="basededonnées.html">Base de données</a></p>
+							<p>‣ <a href="maintenance.html">Maintenance</a></p>
+							<p>‣ <a href="programmation.html">Programmation</a></p>
+							<p>‣ <a href="réseaux.html">Réseaux</a></p>
+							<p>‣ <a href="sécurité.html">Sécurité</a></p>
+							<p>‣ <a href="webdesign.html">Webdesign</a></p>
+						</div>
+					</div>
+
+
+					<div class="col-md-3 widget">
+						<h3 class="widget-title">Contacts</h3>
+						<div class="widget-body">
+							<p><i class="fas fa-home mr-3"></i> Rue de l’université - 62307 LENS Cedex</p>
+							<p><i class="fas fa-phone mr-3"></i> +33 (0)3 21 79 32 32</p>
+							<p><i class="fas fa-envelope mr-3"></i><a href="mailto:#"> info-iutlens@univ-artois.fr</a></p><br>
+						</div>
+						<img class="artois" src="assets/images/univartois.png" alt="univartois">
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="text-left vaenba">
+								Copyright <a href="http://www.iut-lens.univ-artois.fr/">IUT de Lens</a> &copy; 2020
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 widget">
+						<div class="widget-body">
+							<p class="follow-me-icons">
+								<a href="https://www.youtube.com/channel/UCND_qTgiKH9g6XeK_r2iNzw" target="blank" style="color: #C4302B;"><i class="fab fa-youtube fa-2"></i></a>
+								<a href="https://fr.linkedin.com/school/iut-de-lens/" target="blank" style="color: #0E76A8;"><i class="fab fa-linkedin fa-2"></i></a>
+								<a href="https://twitter.com/iutdelens?lang=fr" target="blank" style="color: #00ACEE;"><i class="fab fa-twitter fa-2"></i></a>
+								<a href="https://www.instagram.com/iutdelens/" target="blank" style="color: #DD2A7B;"><i class="fab fa-instagram fa-2"></i></a>
+								<a href="https://fr-fr.facebook.com/IUT.DE.LENS/" target="blank" style="color: #3B5998;"><i class="fab fa-facebook fa-2"></i></a>
+							</p>
+						</div>
+					</div>
+
+				</div> <!-- /row of widgets -->
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
